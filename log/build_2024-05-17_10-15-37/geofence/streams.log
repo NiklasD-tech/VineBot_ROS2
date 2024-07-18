@@ -1,0 +1,24 @@
+[4.233s] Invoking command in '/home/irobot/ros2_ws/build/geofence': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/irobot/ros2_ws/build/geofence/build --no-deps symlink_data
+[4.630s] running develop
+[4.853s] running egg_info
+[4.853s] creating geofence.egg-info
+[4.854s] writing geofence.egg-info/PKG-INFO
+[4.854s] writing dependency_links to geofence.egg-info/dependency_links.txt
+[4.854s] writing entry points to geofence.egg-info/entry_points.txt
+[4.854s] writing requirements to geofence.egg-info/requires.txt
+[4.854s] writing top-level names to geofence.egg-info/top_level.txt
+[5.015s] writing manifest file 'geofence.egg-info/SOURCES.txt'
+[5.019s] reading manifest file 'geofence.egg-info/SOURCES.txt'
+[5.020s] writing manifest file 'geofence.egg-info/SOURCES.txt'
+[5.109s] running build_ext
+[5.109s] Creating /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence.egg-link (link to .)
+[5.110s] Installing pointInPolygon script to /home/irobot/ros2_ws/install/geofence/lib/geofence
+[5.111s] 
+[5.111s] Installed /home/irobot/ros2_ws/build/geofence
+[5.111s] running symlink_data
+[5.111s] creating /home/irobot/ros2_ws/install/geofence/share/ament_index
+[5.111s] creating /home/irobot/ros2_ws/install/geofence/share/ament_index/resource_index
+[5.111s] creating /home/irobot/ros2_ws/install/geofence/share/ament_index/resource_index/packages
+[5.112s] symbolically linking /home/irobot/ros2_ws/build/geofence/resource/geofence -> /home/irobot/ros2_ws/install/geofence/share/ament_index/resource_index/packages
+[5.112s] symbolically linking /home/irobot/ros2_ws/build/geofence/package.xml -> /home/irobot/ros2_ws/install/geofence/share/geofence
+[5.153s] Invoked command in '/home/irobot/ros2_ws/build/geofence' returned '0': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/irobot/ros2_ws/build/geofence/build --no-deps symlink_data

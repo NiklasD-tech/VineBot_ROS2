@@ -1,0 +1,71 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/irobot/ros2_ws/build/vineslam
+[100%] Built target vineslam
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/library_path.sh
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/library_path.dsv
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/extern/concurrentqueue.h
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/extern/thread_pool.cpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/extern/thread_pool.h
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/feature/feature.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/feature/semantic.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/feature/three_dimensional.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/feature/visual.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/filters/convex_hull.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/filters/ransac.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/filters/ransac_cu.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/interface/localization_mapping_interface.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/localization/localizer.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/localization/pf.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/elevation_map_parser.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/elevation_map_writer.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/map_parser.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/map_writer.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/topological_map_parser.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/topological_map_writer.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/elevation_map.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/landmark_ekf.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/landmark_mapping.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/lidar_mapping.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/lidar_mapping_livox.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/lidar_mapping_omnidirectional.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/occupancy_map.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/static/occupancy_map_static.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/topological_map.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/matcher/icp.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Const.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Geodetic.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Point.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Pose.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Stat.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Tf.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Vec.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/params.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/utils/Timer.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/utils/save_data.hpp
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/include//vineslam/utils/scripts/plot_clusters.py
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/ament_index/resource_index/package_run_dependencies/vineslam
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/ament_index/resource_index/parent_prefix_path/vineslam
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/ament_prefix_path.sh
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/ament_prefix_path.dsv
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/path.sh
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/path.dsv
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/local_setup.bash
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/local_setup.sh
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/local_setup.zsh
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/local_setup.dsv
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/package.dsv
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/ament_index/resource_index/packages/vineslam
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/vineslamConfig.cmake
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/vineslamConfig-version.cmake
+-- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/package.xml
+-- Up-to-date: /home/irobot/ros2_ws/install/vineslam/lib/libvineslam.a
+-- Up-to-date: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/export_vineslamExport.cmake
+-- Installing: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/export_vineslamExport-release.cmake

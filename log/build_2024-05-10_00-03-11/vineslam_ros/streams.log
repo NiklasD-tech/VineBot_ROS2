@@ -1,0 +1,108 @@
+[0.025s] Invoking command in '/home/irobot/ros2_ws/build/vineslam_ros': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/vineslam_ros -- -j8 -l8
+[0.153s] [  2%] Built target vineslam_ros__cpp
+[0.160s] [ 10%] Built target vineslam_ros__rosidl_generator_c
+[0.198s] [ 17%] Built target vineslam_ros__rosidl_typesupport_introspection_cpp
+[0.199s] [ 25%] Built target vineslam_ros__rosidl_typesupport_cpp
+[0.204s] [ 33%] Built target vineslam_ros__rosidl_typesupport_introspection_c
+[0.205s] [ 48%] Built target vineslam_ros__rosidl_typesupport_c
+[0.205s] [ 48%] Built target vineslam_ros__rosidl_typesupport_fastrtps_cpp
+[0.255s] [ 56%] Built target vineslam_ros__rosidl_typesupport_fastrtps_c
+[0.294s] [ 56%] Built target vineslam_ros
+[0.337s] [35m[1mScanning dependencies of target slam_node[0m
+[0.337s] [ 58%] Built target vineslam_ros__py
+[0.343s] [35m[1mScanning dependencies of target localization_node[0m
+[0.391s] [ 64%] Built target vineslam_ros__python
+[0.440s] [ 69%] Built target vineslam_ros__rosidl_typesupport_c__pyext
+[0.440s] [ 74%] Built target vineslam_ros__rosidl_typesupport_introspection_c__pyext
+[0.443s] [ 79%] Built target vineslam_ros__rosidl_typesupport_fastrtps_c__pyext
+[0.592s] [ 87%] [32mBuilding CXX object CMakeFiles/slam_node.dir/src/visualization.cpp.o[0m
+[0.592s] [ 87%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/vineslam_ros.cpp.o[0m
+[0.592s] [ 87%] [32mBuilding CXX object CMakeFiles/slam_node.dir/src/slam_node.cpp.o[0m
+[0.593s] [ 92%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization_node.cpp.o[0m
+[0.593s] [ 92%] [32mBuilding CXX object CMakeFiles/slam_node.dir/src/vineslam_ros.cpp.o[0m
+[0.599s] [ 94%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/visualization.cpp.o[0m
+[29.483s] [ 97%] [32m[1mLinking CXX executable localization_node[0m
+[31.135s] [100%] [32m[1mLinking CXX executable slam_node[0m
+[45.648s] [100%] Built target localization_node
+[45.773s] [100%] Built target slam_node
+[45.836s] Invoked command in '/home/irobot/ros2_ws/build/vineslam_ros' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/vineslam_ros -- -j8 -l8
+[46.100s] Invoking command in '/home/irobot/ros2_ws/build/vineslam_ros': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/vineslam_ros
+[46.150s] -- Install configuration: ""
+[46.243s] -- Execute custom install script
+[46.816s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/ament_index/resource_index/rosidl_interfaces/vineslam_ros
+[47.468s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/msg/rosidl_generator_c__visibility_control.h
+[47.641s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__functions.h
+[47.727s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__struct.h
+[47.913s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__type_support.h
+[47.996s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/save_map.h
+[48.138s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/environment/library_path.sh
+[48.387s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/environment/library_path.dsv
+[48.863s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[48.995s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[49.018s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/libvineslam_ros__rosidl_typesupport_fastrtps_c.so
+[49.544s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[49.560s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[49.617s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/libvineslam_ros__rosidl_typesupport_fastrtps_cpp.so
+[49.710s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[49.712s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[49.729s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/msg/rosidl_generator_cpp__visibility_control.hpp
+[49.729s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__builder.hpp
+[49.730s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__struct.hpp
+[49.731s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__traits.hpp
+[49.731s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__type_support.hpp
+[49.732s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/save_map.hpp
+[49.735s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/include/vineslam_ros/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[49.746s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/environment/pythonpath.sh
+[49.756s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/environment/pythonpath.dsv
+[49.759s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages/vineslam_ros/__init__.py
+[49.771s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages/vineslam_ros/srv/__init__.py
+[49.772s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages/vineslam_ros/srv/_save_map.py
+[49.783s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages/vineslam_ros/vineslam_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[49.795s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages/vineslam_ros/vineslam_ros_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[49.805s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages/vineslam_ros/vineslam_ros_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[49.816s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/libvineslam_ros__python.so
+[49.843s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/srv/SaveMap.idl
+[49.868s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/srv/SaveMap.srv
+[49.883s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/srv/SaveMap_Request.msg
+[49.889s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/srv/SaveMap_Response.msg
+[49.899s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/vineslam_ros/slam_node
+[49.900s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/lib/vineslam_ros/localization_node
+[49.968s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/ament_index/resource_index/package_run_dependencies/vineslam_ros
+[49.970s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/ament_index/resource_index/parent_prefix_path/vineslam_ros
+[49.971s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/environment/ament_prefix_path.sh
+[49.982s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/environment/ament_prefix_path.dsv
+[49.982s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/environment/path.sh
+[49.993s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/environment/path.dsv
+[49.994s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/local_setup.bash
+[50.005s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/local_setup.sh
+[50.006s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/local_setup.zsh
+[50.017s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/local_setup.dsv
+[50.017s] -- Symlinking: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.dsv
+[50.050s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/ament_index/resource_index/packages/vineslam_ros
+[50.062s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/rosidl_cmake-extras.cmake
+[50.063s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.064s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[50.065s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/ament_cmake_export_targets-extras.cmake
+[50.067s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.077s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[50.078s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[50.080s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_rosConfig.cmake
+[50.080s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_rosConfig-version.cmake
+[50.081s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.xml
+[50.093s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/lib/libvineslam_ros__rosidl_generator_c.so
+[50.105s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/lib/libvineslam_ros__rosidl_typesupport_introspection_c.so
+[50.107s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/lib/libvineslam_ros__rosidl_typesupport_c.so
+[50.119s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/lib/libvineslam_ros__rosidl_typesupport_introspection_cpp.so
+[50.131s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/lib/libvineslam_ros__rosidl_typesupport_cpp.so
+[50.315s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_generator_cExport.cmake
+[50.315s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_generator_cExport-noconfig.cmake
+[50.327s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_typesupport_introspection_cExport.cmake
+[50.327s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[50.328s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_typesupport_cExport.cmake
+[50.328s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_typesupport_cExport-noconfig.cmake
+[50.329s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_generator_cppExport.cmake
+[50.331s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_typesupport_introspection_cppExport.cmake
+[50.331s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[50.342s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_typesupport_cppExport.cmake
+[50.343s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/cmake/vineslam_ros__rosidl_typesupport_cppExport-noconfig.cmake
+[50.348s] Invoked command in '/home/irobot/ros2_ws/build/vineslam_ros' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/vineslam_ros

@@ -1,0 +1,17 @@
+running develop
+/opt/ros/noetic/lib/python3/dist-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing geofence.egg-info/PKG-INFO
+writing dependency_links to geofence.egg-info/dependency_links.txt
+writing entry points to geofence.egg-info/entry_points.txt
+writing requirements to geofence.egg-info/requires.txt
+writing top-level names to geofence.egg-info/top_level.txt
+reading manifest file 'geofence.egg-info/SOURCES.txt'
+writing manifest file 'geofence.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence.egg-link (link to .)
+Installing pointInPolygon script to /home/irobot/ros2_ws/install/geofence/lib/geofence
+
+Installed /home/irobot/ros2_ws/build/geofence
+running symlink_data

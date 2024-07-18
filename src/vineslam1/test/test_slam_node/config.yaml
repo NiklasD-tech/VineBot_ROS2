@@ -1,0 +1,59 @@
+slam_node:
+  world_frame_id: map_nn2
+  base_frame_id: base_footprint
+  lidar_sensor_frame: livox_frame
+
+  use_semantic_features: True
+  use_lidar_features: True
+  use_vertical_planes: True
+  use_ground_plane: True
+  use_imu: True
+  use_gyroscope: False
+  use_gps: False
+  use_gps_altitude: False
+  use_gps_heading: False
+
+  publish_level: 2 # 0 - do not publish any map
+                   # 1 - publish only the 3D map
+                   # 2 - publish all the maps
+
+  robot_dimensions:
+    x: 2.00 # meters
+    y: 1.00 # meters
+    z: 2.00 # meters
+
+  eading_offset: 270.0 # degrees. Only used if use_gps_heading is true. To compensate for an offset due to antennas arrangement
+
+  multilayer_mapping:
+    # Datum
+    datum:
+      latitude: 0.0
+      longitude: 0.0
+      altitude: 0.0
+
+    # Topological map definitions
+    topological_map:
+      autogen_topological_map: True
+      folder: "/home/irobot/Desktop/VineslamOutput/"
+      dimensions:
+        x: 200.0 # meters
+        y: 200.0 # meters
+        square_size: 20.0 # meters
+
+    # Grid map definitions
+    grid_map:
+      origin:
+        z: -7.5 # meters
+      height: 15.0 # meters
+      resolution: 0.25 # meters
+
+  pf:
+    n_particles: 700
+
+    # Particles innovation
+    sigma_xx: 0.5 # meters
+    sigma_yy: 0.3 # meters
+    sigma_zz: 0.01 # meters
+    sigma_RR: 0.01 # radians
+    sigma_PP: 0.01 # radians
+    sigma_YY: 0.0001 # radians

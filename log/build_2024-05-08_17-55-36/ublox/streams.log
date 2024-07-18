@@ -1,0 +1,44 @@
+[0.022s] Invoking command in '/home/irobot/ros2_ws/build/ublox': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/irobot/ros2_ws/src/ublox/ublox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/ublox
+[0.282s] -- The C compiler identification is GNU 9.4.0
+[0.355s] -- The CXX compiler identification is GNU 9.4.0
+[0.364s] -- Check for working C compiler: /usr/bin/cc
+[0.464s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.466s] -- Detecting C compiler ABI info
+[0.638s] -- Detecting C compiler ABI info - done
+[0.653s] -- Detecting C compile features
+[0.653s] -- Detecting C compile features - done
+[0.655s] -- Check for working CXX compiler: /usr/bin/c++
+[0.765s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.767s] -- Detecting CXX compiler ABI info
+[0.876s] -- Detecting CXX compiler ABI info - done
+[0.891s] -- Detecting CXX compile features
+[0.891s] -- Detecting CXX compile features - done
+[0.893s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.924s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.924s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.117s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.209s] -- Configuring done
+[1.212s] -- Generating done
+[1.246s] -- Build files have been written to: /home/irobot/ros2_ws/build/ublox
+[1.251s] Invoked command in '/home/irobot/ros2_ws/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/irobot/ros2_ws/src/ublox/ublox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/ublox
+[1.255s] Invoking command in '/home/irobot/ros2_ws/build/ublox': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox -- -j8 -l8
+[1.305s] Invoked command in '/home/irobot/ros2_ws/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox -- -j8 -l8
+[1.337s] Invoking command in '/home/irobot/ros2_ws/build/ublox': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox
+[1.349s] -- Install configuration: ""
+[1.349s] -- Execute custom install script
+[1.349s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ament_index/resource_index/package_run_dependencies/ublox
+[1.358s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ament_index/resource_index/parent_prefix_path/ublox
+[1.367s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/environment/ament_prefix_path.sh
+[1.376s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/environment/ament_prefix_path.dsv
+[1.385s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/environment/path.sh
+[1.396s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/environment/path.dsv
+[1.407s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/local_setup.bash
+[1.422s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/local_setup.sh
+[1.431s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/local_setup.zsh
+[1.439s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/local_setup.dsv
+[1.448s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/package.dsv
+[1.457s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ament_index/resource_index/packages/ublox
+[1.472s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/cmake/ubloxConfig.cmake
+[1.487s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/cmake/ubloxConfig-version.cmake
+[1.502s] -- Symlinking: /home/irobot/ros2_ws/install/ublox/share/ublox/package.xml
+[1.528s] Invoked command in '/home/irobot/ros2_ws/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox

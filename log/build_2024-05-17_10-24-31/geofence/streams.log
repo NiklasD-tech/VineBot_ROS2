@@ -1,0 +1,21 @@
+[1.154s] Invoking command in '/home/irobot/ros2_ws/src/geofence': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/geofence build --build-base /home/irobot/ros2_ws/build/geofence/build install --record /home/irobot/ros2_ws/build/geofence/install.log --single-version-externally-managed install_data
+[1.387s] running egg_info
+[1.388s] writing ../../build/geofence/geofence.egg-info/PKG-INFO
+[1.414s] writing dependency_links to ../../build/geofence/geofence.egg-info/dependency_links.txt
+[1.414s] writing entry points to ../../build/geofence/geofence.egg-info/entry_points.txt
+[1.414s] writing requirements to ../../build/geofence/geofence.egg-info/requires.txt
+[1.415s] writing top-level names to ../../build/geofence/geofence.egg-info/top_level.txt
+[1.420s] reading manifest file '../../build/geofence/geofence.egg-info/SOURCES.txt'
+[1.420s] writing manifest file '../../build/geofence/geofence.egg-info/SOURCES.txt'
+[1.421s] running build
+[1.421s] running build_py
+[1.421s] running install
+[1.422s] running install_lib
+[1.425s] running install_data
+[1.425s] running install_egg_info
+[1.425s] removing '/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence-0.0.0-py3.8.egg-info' (and everything under it)
+[1.425s] Copying ../../build/geofence/geofence.egg-info to /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence-0.0.0-py3.8.egg-info
+[1.426s] running install_scripts
+[1.442s] Installing pointInPolygon script to /home/irobot/ros2_ws/install/geofence/lib/geofence
+[1.450s] writing list of installed files to '/home/irobot/ros2_ws/build/geofence/install.log'
+[1.501s] Invoked command in '/home/irobot/ros2_ws/src/geofence' returned '0': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/geofence build --build-base /home/irobot/ros2_ws/build/geofence/build install --record /home/irobot/ros2_ws/build/geofence/install.log --single-version-externally-managed install_data

@@ -1,0 +1,59 @@
+[0.499s] Invoking command in '/home/irobot/ros2_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_sdk_vendor -- -j8 -l8
+[0.789s] [ 12%] [34m[1mPerforming update step for 'livox-sdk-v2.3.0'[0m
+[0.789s] [ 25%] [34m[1mPerforming configure step for 'livox-sdk-v2.3.0'[0m
+[0.789s] -- main project dir: /home/irobot/ros2_ws/build/livox_sdk_vendor/livox-sdk-v2.3.0-prefix/src/livox-sdk-v2.3.0
+[0.789s] -- Configuring done
+[2.259s] -- Generating done
+[3.128s] -- Build files have been written to: /home/irobot/ros2_ws/build/livox_sdk_vendor/livox-sdk-v2.3.0-prefix/src/livox-sdk-v2.3.0-build
+[3.156s] [ 37%] [34m[1mPerforming build step for 'livox-sdk-v2.3.0'[0m
+[3.219s] [ 54%] Built target livox_sdk_static
+[3.240s] [ 58%] Built target trouble_shooting
+[3.244s] [ 68%] Built target hub_sample
+[3.244s] [ 68%] Built target lidar_lvx_sample
+[3.244s] [ 75%] Built target lidar_sample_cc
+[3.245s] [ 79%] Built target lidar_sample
+[3.247s] [ 85%] Built target hub_lvx_sample
+[3.249s] [ 91%] Built target hub_sample_cc
+[3.267s] [100%] Built target lidar_utc_sync
+[3.307s] [ 50%] [34m[1mPerforming install step for 'livox-sdk-v2.3.0'[0m
+[3.372s] [ 54%] Built target livox_sdk_static
+[3.392s] [ 60%] Built target lidar_lvx_sample
+[3.398s] [ 72%] Built target hub_sample
+[3.399s] [ 77%] Built target hub_lvx_sample
+[3.399s] [ 77%] Built target lidar_sample_cc
+[3.400s] [ 81%] Built target lidar_sample
+[3.402s] [ 87%] Built target hub_sample_cc
+[3.404s] [ 91%] Built target trouble_shooting
+[3.415s] [100%] Built target lidar_utc_sync
+[3.443s] [36mInstall the project...[0m
+[3.450s] -- Install configuration: ""
+[3.450s] -- Up-to-date: /home/irobot/ros2_ws/build/livox_sdk_vendor/livox-sdk_install/lib/liblivox_sdk_static.a
+[3.450s] -- Up-to-date: /home/irobot/ros2_ws/build/livox_sdk_vendor/livox-sdk_install/include/livox_def.h
+[3.450s] -- Up-to-date: /home/irobot/ros2_ws/build/livox_sdk_vendor/livox-sdk_install/include/livox_sdk.h
+[3.553s] [ 62%] [34m[1mCompleted 'livox-sdk-v2.3.0'[0m
+[3.777s] [100%] Built target livox-sdk-v2.3.0
+[4.076s] Invoked command in '/home/irobot/ros2_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_sdk_vendor -- -j8 -l8
+[4.108s] Invoking command in '/home/irobot/ros2_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_sdk_vendor
+[4.119s] -- Install configuration: ""
+[4.120s] -- Execute custom install script
+[4.121s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/include/livox_def.h
+[4.123s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/include/livox_sdk.h
+[4.123s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/lib/liblivox_sdk_static.a
+[4.124s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules/Findlivox_sdk.cmake
+[4.124s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/ament_index/resource_index/package_run_dependencies/livox_sdk_vendor
+[4.124s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/ament_index/resource_index/parent_prefix_path/livox_sdk_vendor
+[4.124s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.sh
+[4.124s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.dsv
+[4.124s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.sh
+[4.124s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.dsv
+[4.124s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.bash
+[4.125s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.sh
+[4.125s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.zsh
+[4.125s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.dsv
+[4.125s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv
+[4.136s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/ament_index/resource_index/packages/livox_sdk_vendor
+[4.136s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendor-extras.cmake
+[4.137s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig.cmake
+[4.137s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig-version.cmake
+[4.137s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.xml
+[4.142s] Invoked command in '/home/irobot/ros2_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_sdk_vendor

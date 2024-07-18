@@ -1,0 +1,108 @@
+[1.580s] Invoking command in '/home/irobot/ros2_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_interfaces -- -j8 -l8
+[1.818s] [  2%] Built target livox_interfaces__cpp
+[1.844s] [ 12%] Built target livox_interfaces__rosidl_generator_c
+[2.012s] [ 23%] Built target livox_interfaces__rosidl_typesupport_introspection_c
+[2.014s] [ 33%] Built target livox_interfaces__rosidl_typesupport_introspection_cpp
+[2.016s] [ 43%] Built target livox_interfaces__rosidl_typesupport_cpp
+[2.017s] [ 53%] Built target livox_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.026s] [ 64%] Built target livox_interfaces__rosidl_typesupport_c
+[2.085s] [ 74%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c
+[2.144s] [ 74%] Built target livox_interfaces
+[2.211s] [ 76%] Built target livox_interfaces__py
+[2.300s] [ 84%] Built target livox_interfaces__python
+[2.398s] [ 89%] Built target livox_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.401s] [ 94%] Built target livox_interfaces__rosidl_typesupport_c__pyext
+[2.412s] [100%] Built target livox_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.697s] Invoked command in '/home/irobot/ros2_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_interfaces -- -j8 -l8
+[2.862s] Invoking command in '/home/irobot/ros2_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_interfaces
+[2.889s] -- Install configuration: ""
+[2.895s] -- Execute custom install script
+[2.911s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/ament_index/resource_index/rosidl_interfaces/livox_interfaces
+[2.917s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/custom_msg.h
+[2.918s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/custom_point.h
+[2.932s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__functions.h
+[2.933s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__struct.h
+[2.945s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__type_support.h
+[2.950s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__functions.h
+[2.951s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__struct.h
+[2.963s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__type_support.h
+[2.964s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.978s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/library_path.sh
+[2.980s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/library_path.dsv
+[2.994s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[2.995s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[2.996s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.010s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.013s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[3.016s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.016s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.029s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.030s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[3.032s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[3.038s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.042s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/custom_msg.hpp
+[3.046s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/custom_point.hpp
+[3.050s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__builder.hpp
+[3.054s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__struct.hpp
+[3.060s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__traits.hpp
+[3.069s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__type_support.hpp
+[3.072s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__builder.hpp
+[3.073s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__struct.hpp
+[3.074s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__traits.hpp
+[3.085s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__type_support.hpp
+[3.086s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.098s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[3.109s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/include/livox_interfaces/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[3.110s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.sh
+[3.113s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/pythonpath.dsv
+[3.133s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/__init__.py
+[3.133s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/__init__.py
+[3.137s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/_custom_msg.py
+[3.151s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/msg/_custom_point.py
+[3.160s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.171s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.188s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages/livox_interfaces/livox_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.206s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__python.so
+[3.210s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.idl
+[3.215s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.idl
+[3.221s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomPoint.msg
+[3.226s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/msg/CustomMsg.msg
+[3.229s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/ament_index/resource_index/package_run_dependencies/livox_interfaces
+[3.240s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/ament_index/resource_index/parent_prefix_path/livox_interfaces
+[3.241s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.sh
+[3.241s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/ament_prefix_path.dsv
+[3.253s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/path.sh
+[3.256s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/environment/path.dsv
+[3.257s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/local_setup.bash
+[3.261s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/local_setup.sh
+[3.263s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/local_setup.zsh
+[3.265s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/local_setup.dsv
+[3.265s] -- Symlinking: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.dsv
+[3.307s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/ament_index/resource_index/packages/livox_interfaces
+[3.319s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.321s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.338s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.346s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.346s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.351s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.362s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.366s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig.cmake
+[3.371s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfacesConfig-version.cmake
+[3.372s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.xml
+[3.386s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_generator_c.so
+[3.408s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_c.so
+[3.422s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_c.so
+[3.436s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.438s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/lib/liblivox_interfaces__rosidl_typesupport_cpp.so
+[3.521s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_generator_cExport.cmake
+[3.521s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.534s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.534s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.548s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport.cmake
+[3.548s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.556s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_generator_cppExport.cmake
+[3.559s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.559s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.578s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport.cmake
+[3.579s] -- Up-to-date: /home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/cmake/livox_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.586s] Invoked command in '/home/irobot/ros2_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_interfaces

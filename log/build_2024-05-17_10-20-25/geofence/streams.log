@@ -1,0 +1,48 @@
+[2.250s] Invoking command in '/home/irobot/ros2_ws/build/geofence': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/irobot/ros2_ws/build/geofence/build
+[2.483s] running develop
+[2.619s] Removing /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence.egg-link (link to .)
+[2.692s] Invoked command in '/home/irobot/ros2_ws/build/geofence' returned '0': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/irobot/ros2_ws/build/geofence/build
+[2.697s] Invoking command in '/home/irobot/ros2_ws/src/geofence': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/geofence build --build-base /home/irobot/ros2_ws/build/geofence/build install --record /home/irobot/ros2_ws/build/geofence/install.log --single-version-externally-managed install_data --force
+[2.924s] running egg_info
+[2.925s] writing ../../build/geofence/geofence.egg-info/PKG-INFO
+[2.951s] writing dependency_links to ../../build/geofence/geofence.egg-info/dependency_links.txt
+[2.980s] writing entry points to ../../build/geofence/geofence.egg-info/entry_points.txt
+[2.995s] writing requirements to ../../build/geofence/geofence.egg-info/requires.txt
+[3.022s] writing top-level names to ../../build/geofence/geofence.egg-info/top_level.txt
+[3.058s] reading manifest file '../../build/geofence/geofence.egg-info/SOURCES.txt'
+[3.059s] writing manifest file '../../build/geofence/geofence.egg-info/SOURCES.txt'
+[3.078s] running build
+[3.079s] running build_py
+[3.079s] creating /home/irobot/ros2_ws/build/geofence/build
+[3.079s] creating /home/irobot/ros2_ws/build/geofence/build/lib
+[3.079s] creating /home/irobot/ros2_ws/build/geofence/build/lib/geofence
+[3.079s] copying geofence/Test4.py -> /home/irobot/ros2_ws/build/geofence/build/lib/geofence
+[3.079s] copying geofence/Test3.py -> /home/irobot/ros2_ws/build/geofence/build/lib/geofence
+[3.079s] copying geofence/__init__.py -> /home/irobot/ros2_ws/build/geofence/build/lib/geofence
+[3.081s] copying geofence/Test.py -> /home/irobot/ros2_ws/build/geofence/build/lib/geofence
+[3.082s] copying geofence/pointInPolygon.py -> /home/irobot/ros2_ws/build/geofence/build/lib/geofence
+[3.082s] copying geofence/Test2.py -> /home/irobot/ros2_ws/build/geofence/build/lib/geofence
+[3.082s] running install
+[3.082s] running install_lib
+[3.082s] creating /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence
+[3.082s] copying /home/irobot/ros2_ws/build/geofence/build/lib/geofence/Test4.py -> /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence
+[3.082s] copying /home/irobot/ros2_ws/build/geofence/build/lib/geofence/Test3.py -> /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence
+[3.082s] copying /home/irobot/ros2_ws/build/geofence/build/lib/geofence/__init__.py -> /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence
+[3.083s] copying /home/irobot/ros2_ws/build/geofence/build/lib/geofence/Test.py -> /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence
+[3.083s] copying /home/irobot/ros2_ws/build/geofence/build/lib/geofence/pointInPolygon.py -> /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence
+[3.083s] copying /home/irobot/ros2_ws/build/geofence/build/lib/geofence/Test2.py -> /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence
+[3.083s] byte-compiling /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence/Test4.py to Test4.cpython-38.pyc
+[3.085s] byte-compiling /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence/Test3.py to Test3.cpython-38.pyc
+[3.087s] byte-compiling /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence/__init__.py to __init__.cpython-38.pyc
+[3.087s] byte-compiling /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence/Test.py to Test.cpython-38.pyc
+[3.088s] byte-compiling /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence/pointInPolygon.py to pointInPolygon.cpython-38.pyc
+[3.088s] byte-compiling /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence/Test2.py to Test2.cpython-38.pyc
+[3.090s] running install_data
+[3.090s] copying resource/geofence -> /home/irobot/ros2_ws/install/geofence/share/ament_index/resource_index/packages
+[3.090s] copying package.xml -> /home/irobot/ros2_ws/install/geofence/share/geofence
+[3.090s] running install_egg_info
+[3.092s] Copying ../../build/geofence/geofence.egg-info to /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence-0.0.0-py3.8.egg-info
+[3.092s] running install_scripts
+[3.108s] Installing pointInPolygon script to /home/irobot/ros2_ws/install/geofence/lib/geofence
+[3.136s] writing list of installed files to '/home/irobot/ros2_ws/build/geofence/install.log'
+[3.294s] Invoked command in '/home/irobot/ros2_ws/src/geofence' returned '0': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/geofence build --build-base /home/irobot/ros2_ws/build/geofence/build install --record /home/irobot/ros2_ws/build/geofence/install.log --single-version-externally-managed install_data --force

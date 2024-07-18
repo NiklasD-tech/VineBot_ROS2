@@ -1,0 +1,8 @@
+source;share/vineslam/hook/cmake_prefix_path.ps1
+source;share/vineslam/hook/cmake_prefix_path.dsv
+source;share/vineslam/hook/cmake_prefix_path.sh
+source;share/vineslam/local_setup.bash
+source;share/vineslam/local_setup.dsv
+source;share/vineslam/local_setup.ps1
+source;share/vineslam/local_setup.sh
+source;share/vineslam/local_setup.zsh

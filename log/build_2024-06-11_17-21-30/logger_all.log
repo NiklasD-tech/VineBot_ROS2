@@ -1,0 +1,936 @@
+[0.176s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.176s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0bc8fc0bb0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0bc8fc0bb0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0bc8e23040>)
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.355s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/irobot/ros2_ws'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/geofence) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/geofence) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/geofence) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/geofence) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/geofence) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/geofence) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/geofence) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/geofence) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/geofence) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/geofence' with type 'ros.ament_python' and name 'geofence'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox) by extension 'python_setup_py'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/images) by extension 'python_setup_py'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_interfaces) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_interfaces) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_interfaces) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_interfaces) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_interfaces) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_interfaces) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_interfaces) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_interfaces) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox/livox_interfaces' with type 'ros.ament_cmake' and name 'livox_interfaces'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_ros2_driver) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_ros2_driver) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_ros2_driver) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_ros2_driver) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_ros2_driver) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_ros2_driver) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_ros2_driver) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_ros2_driver) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox/livox_ros2_driver' with type 'ros.ament_cmake' and name 'livox_ros2_driver'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_sdk_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_sdk_vendor) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_sdk_vendor) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_sdk_vendor) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_sdk_vendor) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_sdk_vendor) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_sdk_vendor) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_sdk_vendor) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox/livox_sdk_vendor) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox/livox_sdk_vendor' with type 'ros.ament_cmake' and name 'livox_sdk_vendor'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'ros'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'cmake'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox' with type 'ros.ament_cmake' and name 'ublox'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'colcon_pkg'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['colcon_meta']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'colcon_meta'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extensions ['ros']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_gps) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox_gps' with type 'ros.ament_cmake' and name 'ublox_gps'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_msgs) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox_msgs' with type 'ros.ament_cmake' and name 'ublox_msgs'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ublox/ublox_serialization) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ublox/ublox_serialization' with type 'ros.ament_cmake' and name 'ublox_serialization'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extension 'ros'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extensions ['cmake', 'python']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extension 'cmake'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extension 'python'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extensions ['python_setup_py']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1) by extension 'python_setup_py'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extension 'ros'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extensions ['cmake', 'python']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extension 'cmake'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extension 'python'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extensions ['python_setup_py']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docker) by extension 'python_setup_py'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extension 'python'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extensions ['python_setup_py']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/docs) by extension 'python_setup_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extension 'python'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extensions ['python_setup_py']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test) by extension 'python_setup_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extension 'ros'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extensions ['cmake', 'python']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extension 'cmake'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extension 'python'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extensions ['python_setup_py']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node) by extension 'python_setup_py'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extension 'ros'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extensions ['cmake', 'python']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extension 'cmake'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extension 'python'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extensions ['python_setup_py']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_localization_node/__pycache__) by extension 'python_setup_py'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extension 'ros'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extensions ['cmake', 'python']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extension 'cmake'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extension 'python'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extensions ['python_setup_py']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node) by extension 'python_setup_py'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extension 'ros'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extensions ['cmake', 'python']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extension 'cmake'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extension 'python'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extensions ['python_setup_py']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/test/test_slam_node/__pycache__) by extension 'python_setup_py'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vineslam1/vineslam' with type 'ros.ament_cmake' and name 'vineslam'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam_ros) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam_ros) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam_ros) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam_ros) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam_ros) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam_ros) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam_ros) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/vineslam1/vineslam_ros) by extension 'ros'
+[0.382s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vineslam1/vineslam_ros' with type 'ros.ament_cmake' and name 'vineslam_ros'
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.404s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/irobot/ros2_ws/install
+[0.407s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 263 installed packages in /opt/ros/foxy
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'geofence' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'geofence' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'geofence' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'geofence' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'geofence' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'geofence' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'geofence' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'geofence' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'geofence' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'geofence' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irobot/ros2_ws/build/geofence', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irobot/ros2_ws/install/geofence', 'merge_install': False, 'path': '/home/irobot/ros2_ws/src/geofence', 'symlink_install': True, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'livox_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irobot/ros2_ws/build/livox_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irobot/ros2_ws/install/livox_interfaces', 'merge_install': False, 'path': '/home/irobot/ros2_ws/src/livox/livox_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk_vendor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'livox_sdk_vendor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irobot/ros2_ws/build/livox_sdk_vendor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irobot/ros2_ws/install/livox_sdk_vendor', 'merge_install': False, 'path': '/home/irobot/ros2_ws/src/livox/livox_sdk_vendor', 'symlink_install': True, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_serialization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irobot/ros2_ws/build/ublox_serialization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irobot/ros2_ws/install/ublox_serialization', 'merge_install': False, 'path': '/home/irobot/ros2_ws/src/ublox/ublox_serialization', 'symlink_install': True, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'vineslam' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'vineslam' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'vineslam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'vineslam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'vineslam' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'vineslam' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'vineslam' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'vineslam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'vineslam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'vineslam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irobot/ros2_ws/build/vineslam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irobot/ros2_ws/install/vineslam', 'merge_install': False, 'path': '/home/irobot/ros2_ws/src/vineslam1/vineslam', 'symlink_install': True, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'livox_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irobot/ros2_ws/build/livox_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irobot/ros2_ws/install/livox_ros2_driver', 'merge_install': False, 'path': '/home/irobot/ros2_ws/src/livox/livox_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irobot/ros2_ws/build/ublox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irobot/ros2_ws/install/ublox_msgs', 'merge_install': False, 'path': '/home/irobot/ros2_ws/src/ublox/ublox_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irobot/ros2_ws/build/ublox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irobot/ros2_ws/install/ublox_gps', 'merge_install': False, 'path': '/home/irobot/ros2_ws/src/ublox/ublox_gps', 'symlink_install': True, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'vineslam_ros' build argument 'cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'vineslam_ros' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'vineslam_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'vineslam_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'vineslam_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'vineslam_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'vineslam_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'vineslam_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'vineslam_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'vineslam_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irobot/ros2_ws/build/vineslam_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irobot/ros2_ws/install/vineslam_ros', 'merge_install': False, 'path': '/home/irobot/ros2_ws/src/vineslam1/vineslam_ros', 'symlink_install': True, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'ublox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irobot/ros2_ws/build/ublox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irobot/ros2_ws/install/ublox', 'merge_install': False, 'path': '/home/irobot/ros2_ws/src/ublox/ublox', 'symlink_install': True, 'test_result_base': None}
+[0.455s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.456s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irobot/ros2_ws/src/ublox/ublox_serialization' with build type 'ament_cmake'
+[0.456s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irobot/ros2_ws/src/ublox/ublox_serialization'
+[0.458s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.462s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irobot/ros2_ws/src/livox/livox_interfaces' with build type 'ament_cmake'
+[0.463s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irobot/ros2_ws/src/livox/livox_interfaces'
+[0.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.473s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irobot/ros2_ws/src/livox/livox_sdk_vendor' with build type 'ament_cmake'
+[0.473s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irobot/ros2_ws/src/livox/livox_sdk_vendor'
+[0.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.479s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irobot/ros2_ws/src/vineslam1/vineslam' with build type 'ament_cmake'
+[0.479s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irobot/ros2_ws/src/vineslam1/vineslam'
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.488s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/irobot/ros2_ws/src/geofence' with build type 'ament_python'
+[0.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('geofence', 'ament_prefix_path')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/geofence/share/geofence/hook/ament_prefix_path.ps1'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/geofence/share/geofence/hook/ament_prefix_path.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/geofence/share/geofence/hook/ament_prefix_path.sh'
+[0.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox_serialization -- -j8 -l8
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_interfaces -- -j8 -l8
+[0.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_sdk_vendor -- -j8 -l8
+[0.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/vineslam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake /home/irobot/ros2_ws/src/vineslam1/vineslam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/vineslam
+[0.774s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/irobot/ros2_ws/src/geofence'
+[0.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox_serialization -- -j8 -l8
+[0.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_sdk_vendor -- -j8 -l8
+[0.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_interfaces -- -j8 -l8
+[0.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox_serialization
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_sdk_vendor
+[0.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[0.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox_serialization
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization' for CMake module files
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization' for CMake config files
+[0.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization/bin'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization/lib/python3.8/site-packages'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization/bin'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.sh'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.bash'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[0.878s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[0.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_sdk_vendor)
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor' for CMake module files
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_sdk_vendor
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor' for CMake config files
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_sdk_vendor', 'cmake_prefix_path')
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.dsv'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.sh'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor/lib'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor/bin'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor/lib/pkgconfig/livox_sdk_vendor.pc'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor/lib/python3.8/site-packages'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor/bin'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.ps1'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.sh'
+[0.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.bash'
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.zsh'
+[0.904s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/livox_sdk_vendor/share/colcon-core/packages/livox_sdk_vendor)
+[0.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/livox_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_interfaces
+[0.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization' for CMake module files
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization' for CMake config files
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization/bin'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization/lib/python3.8/site-packages'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_serialization/bin'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.sh'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.bash'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[0.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[0.923s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irobot/ros2_ws/src/ublox/ublox_msgs' with build type 'ament_cmake'
+[0.924s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irobot/ros2_ws/src/ublox/ublox_msgs'
+[0.925s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.925s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/vineslam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake /home/irobot/ros2_ws/src/vineslam1/vineslam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/vineslam
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/vineslam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/vineslam -- -j8 -l8
+[0.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_sdk_vendor)
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor' for CMake module files
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor' for CMake config files
+[0.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_sdk_vendor', 'cmake_prefix_path')
+[0.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.ps1'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/hook/cmake_prefix_path.sh'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor/lib'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor/bin'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor/lib/pkgconfig/livox_sdk_vendor.pc'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor/lib/python3.8/site-packages'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_sdk_vendor/bin'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.sh'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.bash'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.zsh'
+[0.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/livox_sdk_vendor/share/colcon-core/packages/livox_sdk_vendor)
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox_msgs': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake /home/irobot/ros2_ws/src/ublox/ublox_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/ublox_msgs
+[1.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_interfaces)
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces' for CMake module files
+[1.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/livox_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_interfaces
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces' for CMake config files
+[1.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_interfaces', 'cmake_prefix_path')
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.dsv'
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.sh'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces/lib'
+[1.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_interfaces', 'ld_library_path_lib')
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.ps1'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.dsv'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.sh'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces/bin'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces/lib/pkgconfig/livox_interfaces.pc'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages'
+[1.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_interfaces', 'pythonpath')
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/pythonpath.ps1'
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/pythonpath.dsv'
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/pythonpath.sh'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces/bin'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.sh'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.bash'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.zsh'
+[1.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/livox_interfaces/share/colcon-core/packages/livox_interfaces)
+[1.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/vineslam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/vineslam -- -j8 -l8
+[1.117s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_interfaces)
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces' for CMake module files
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces' for CMake config files
+[1.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_interfaces', 'cmake_prefix_path')
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.ps1'
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.dsv'
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/cmake_prefix_path.sh'
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces/lib'
+[1.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_interfaces', 'ld_library_path_lib')
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.dsv'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/ld_library_path_lib.sh'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces/bin'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces/lib/pkgconfig/livox_interfaces.pc'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages'
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_interfaces', 'pythonpath')
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/pythonpath.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/pythonpath.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/hook/pythonpath.sh'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_interfaces/bin'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.dsv'
+[1.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.sh'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.bash'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_interfaces/share/livox_interfaces/package.zsh'
+[1.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/livox_interfaces/share/colcon-core/packages/livox_interfaces)
+[1.138s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irobot/ros2_ws/src/livox/livox_ros2_driver' with build type 'ament_cmake'
+[1.138s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irobot/ros2_ws/src/livox/livox_ros2_driver'
+[1.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/vineslam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/vineslam
+[1.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/livox_ros2_driver': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/irobot/ros2_ws/src/livox/livox_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/livox_ros2_driver
+[1.177s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/irobot/ros2_ws/install/geofence/share/ament_index/resource_index/packages/geofence
+[1.177s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/irobot/ros2_ws/install/geofence/share/geofence/package.xml
+[1.177s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/irobot/ros2_ws/install/geofence/lib/geofence/pointInPolygon
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/geofence': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/irobot/ros2_ws/build/geofence/build --no-deps symlink_data --force
+[1.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('geofence', 'pythonpath_develop')
+[1.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/build/geofence/share/geofence/hook/pythonpath_develop.ps1'
+[1.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/geofence' returned '0': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/irobot/ros2_ws/build/geofence/build --no-deps symlink_data --force
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/build/geofence/share/geofence/hook/pythonpath_develop.dsv'
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/build/geofence/share/geofence/hook/pythonpath_develop.sh'
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/geofence' for CMake module files
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/geofence' for CMake config files
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/geofence/lib'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/geofence/bin'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/geofence/lib/pkgconfig/geofence.pc'
+[1.670s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages'
+[1.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('geofence', 'pythonpath')
+[1.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/geofence/share/geofence/hook/pythonpath.ps1'
+[1.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/geofence/share/geofence/hook/pythonpath.dsv'
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/geofence/share/geofence/hook/pythonpath.sh'
+[1.672s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/geofence/bin'
+[1.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(geofence)
+[1.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/geofence/share/geofence/package.ps1'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/geofence/share/geofence/package.dsv'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/geofence/share/geofence/package.sh'
+[1.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/geofence/share/geofence/package.bash'
+[1.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/geofence/share/geofence/package.zsh'
+[1.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/geofence/share/colcon-core/packages/geofence)
+[1.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vineslam)
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam' for CMake module files
+[1.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/vineslam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/vineslam
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam' for CMake config files
+[1.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('vineslam', 'cmake_prefix_path')
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam/share/vineslam/hook/cmake_prefix_path.ps1'
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/vineslam/share/vineslam/hook/cmake_prefix_path.dsv'
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam/share/vineslam/hook/cmake_prefix_path.sh'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam/lib'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam/bin'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam/lib/pkgconfig/vineslam.pc'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam/lib/python3.8/site-packages'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam/bin'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam/share/vineslam/package.ps1'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/vineslam/share/vineslam/package.dsv'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam/share/vineslam/package.sh'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam/share/vineslam/package.bash'
+[1.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam/share/vineslam/package.zsh'
+[1.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/vineslam/share/colcon-core/packages/vineslam)
+[1.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vineslam)
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam' for CMake module files
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam' for CMake config files
+[1.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('vineslam', 'cmake_prefix_path')
+[1.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam/share/vineslam/hook/cmake_prefix_path.ps1'
+[1.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/vineslam/share/vineslam/hook/cmake_prefix_path.dsv'
+[1.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam/share/vineslam/hook/cmake_prefix_path.sh'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam/lib'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam/bin'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam/lib/pkgconfig/vineslam.pc'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam/lib/python3.8/site-packages'
+[1.880s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam/bin'
+[1.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam/share/vineslam/package.ps1'
+[1.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/vineslam/share/vineslam/package.dsv'
+[1.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam/share/vineslam/package.sh'
+[1.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam/share/vineslam/package.bash'
+[1.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam/share/vineslam/package.zsh'
+[1.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/vineslam/share/colcon-core/packages/vineslam)
+[2.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/livox_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/irobot/ros2_ws/src/livox/livox_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/livox_ros2_driver
+[2.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/livox_ros2_driver': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_ros2_driver -- -j8 -l8
+[2.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox_msgs' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake /home/irobot/ros2_ws/src/ublox/ublox_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/ublox_msgs
+[2.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox_msgs': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox_msgs -- -j8 -l8
+[3.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox_msgs' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox_msgs -- -j8 -l8
+[3.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/livox_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_ros2_driver -- -j8 -l8
+[3.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/livox_ros2_driver': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_ros2_driver
+[3.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros2_driver)
+[3.561s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver' for CMake module files
+[3.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/livox_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_ros2_driver
+[3.563s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver' for CMake config files
+[3.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros2_driver', 'cmake_prefix_path')
+[3.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.ps1'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.dsv'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.sh'
+[3.567s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver/lib'
+[3.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros2_driver', 'ld_library_path_lib')
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.ps1'
+[3.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.dsv'
+[3.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.sh'
+[3.569s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver/bin'
+[3.569s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver/lib/pkgconfig/livox_ros2_driver.pc'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver/lib/python3.8/site-packages'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver/bin'
+[3.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.ps1'
+[3.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv'
+[3.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.sh'
+[3.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.bash'
+[3.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.zsh'
+[3.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/livox_ros2_driver/share/colcon-core/packages/livox_ros2_driver)
+[3.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros2_driver)
+[3.649s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver' for CMake module files
+[3.651s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver' for CMake config files
+[3.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros2_driver', 'cmake_prefix_path')
+[3.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.ps1'
+[3.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.dsv'
+[3.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/cmake_prefix_path.sh'
+[3.653s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver/lib'
+[3.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros2_driver', 'ld_library_path_lib')
+[3.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.ps1'
+[3.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.dsv'
+[3.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/hook/ld_library_path_lib.sh'
+[3.655s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver/bin'
+[3.656s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver/lib/pkgconfig/livox_ros2_driver.pc'
+[3.656s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver/lib/python3.8/site-packages'
+[3.656s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/livox_ros2_driver/bin'
+[3.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.ps1'
+[3.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv'
+[3.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.sh'
+[3.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.bash'
+[3.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.zsh'
+[3.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/livox_ros2_driver/share/colcon-core/packages/livox_ros2_driver)
+[4.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox_msgs': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox_msgs
+[5.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[5.177s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs' for CMake module files
+[5.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox_msgs' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox_msgs
+[5.179s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs' for CMake config files
+[5.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[5.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[5.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[5.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[5.192s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs/lib'
+[5.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[5.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[5.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[5.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[5.203s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs/bin'
+[5.203s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[5.203s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages'
+[5.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'pythonpath')
+[5.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/pythonpath.ps1'
+[5.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/pythonpath.dsv'
+[5.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/pythonpath.sh'
+[5.206s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs/bin'
+[5.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[5.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[5.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/package.sh'
+[5.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/package.bash'
+[5.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[5.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[6.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[6.788s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs' for CMake module files
+[6.789s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs' for CMake config files
+[6.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[6.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[6.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[6.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[6.800s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs/lib'
+[6.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[6.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[6.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[6.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[6.805s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs/bin'
+[6.805s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[6.805s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages'
+[6.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'pythonpath')
+[6.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/pythonpath.ps1'
+[6.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/pythonpath.dsv'
+[6.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/hook/pythonpath.sh'
+[6.806s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_msgs/bin'
+[6.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[6.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[6.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/package.sh'
+[6.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/package.bash'
+[6.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[6.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[6.819s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irobot/ros2_ws/src/ublox/ublox_gps' with build type 'ament_cmake'
+[6.820s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irobot/ros2_ws/src/ublox/ublox_gps'
+[6.820s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.820s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.829s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irobot/ros2_ws/src/vineslam1/vineslam_ros' with build type 'ament_cmake'
+[6.830s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irobot/ros2_ws/src/vineslam1/vineslam_ros'
+[6.830s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.831s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox_gps': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/irobot/ros2_ws/src/ublox/ublox_gps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/ublox_gps
+[6.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/vineslam_ros': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/irobot/ros2_ws/src/vineslam1/vineslam_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/vineslam_ros
+[7.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/irobot/ros2_ws/src/ublox/ublox_gps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/ublox_gps
+[7.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox_gps': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox_gps -- -j8 -l8
+[8.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox_gps -- -j8 -l8
+[8.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox_gps': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox_gps
+[8.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[8.269s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps' for CMake module files
+[8.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox_gps
+[8.270s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps' for CMake config files
+[8.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[8.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[8.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[8.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[8.273s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps/lib'
+[8.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[8.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[8.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[8.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[8.276s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps/bin'
+[8.276s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[8.276s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps/lib/python3.8/site-packages'
+[8.277s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps/bin'
+[8.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.ps1'
+[8.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.dsv'
+[8.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.sh'
+[8.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.bash'
+[8.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.zsh'
+[8.283s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[8.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[8.368s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps' for CMake module files
+[8.369s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps' for CMake config files
+[8.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[8.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[8.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[8.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[8.373s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps/lib'
+[8.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[8.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[8.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[8.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[8.375s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps/bin'
+[8.375s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[8.376s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps/lib/python3.8/site-packages'
+[8.376s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox_gps/bin'
+[8.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.ps1'
+[8.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.dsv'
+[8.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.sh'
+[8.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.bash'
+[8.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.zsh'
+[8.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[8.380s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irobot/ros2_ws/src/ublox/ublox' with build type 'ament_cmake'
+[8.380s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irobot/ros2_ws/src/ublox/ublox'
+[8.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/irobot/ros2_ws/src/ublox/ublox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/ublox
+[8.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/irobot/ros2_ws/src/ublox/ublox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/ublox
+[8.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox -- -j8 -l8
+[8.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox -- -j8 -l8
+[8.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/ublox': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox
+[8.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[8.797s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox' for CMake module files
+[8.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/ublox' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox
+[8.798s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox' for CMake config files
+[8.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[8.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[8.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[8.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[8.803s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox/bin'
+[8.803s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox/lib/pkgconfig/ublox.pc'
+[8.804s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox/lib/python3.8/site-packages'
+[8.804s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox/bin'
+[8.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox/share/ublox/package.ps1'
+[8.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/ublox/share/ublox/package.dsv'
+[8.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox/share/ublox/package.sh'
+[8.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox/share/ublox/package.bash'
+[8.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox/share/ublox/package.zsh'
+[8.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/ublox/share/colcon-core/packages/ublox)
+[8.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[8.839s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox' for CMake module files
+[8.840s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox' for CMake config files
+[8.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[8.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[8.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[8.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[8.842s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox/bin'
+[8.842s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox/lib/pkgconfig/ublox.pc'
+[8.843s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox/lib/python3.8/site-packages'
+[8.843s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/ublox/bin'
+[8.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox/share/ublox/package.ps1'
+[8.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/ublox/share/ublox/package.dsv'
+[8.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox/share/ublox/package.sh'
+[8.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox/share/ublox/package.bash'
+[8.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/ublox/share/ublox/package.zsh'
+[8.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/ublox/share/colcon-core/packages/ublox)
+[10.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/vineslam_ros' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/irobot/ros2_ws/src/vineslam1/vineslam_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/vineslam_ros
+[10.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/vineslam_ros': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/vineslam_ros -- -j8 -l8
+[51.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/vineslam_ros' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/vineslam_ros -- -j8 -l8
+[51.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irobot/ros2_ws/build/vineslam_ros': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/vineslam_ros
+[52.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vineslam_ros)
+[52.117s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros' for CMake module files
+[52.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irobot/ros2_ws/build/vineslam_ros' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/vineslam_ros
+[52.119s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros' for CMake config files
+[52.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('vineslam_ros', 'cmake_prefix_path')
+[52.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/cmake_prefix_path.ps1'
+[52.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/cmake_prefix_path.dsv'
+[52.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/cmake_prefix_path.sh'
+[52.123s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros/lib'
+[52.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('vineslam_ros', 'ld_library_path_lib')
+[52.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/ld_library_path_lib.ps1'
+[52.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/ld_library_path_lib.dsv'
+[52.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/ld_library_path_lib.sh'
+[52.126s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros/bin'
+[52.126s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros/lib/pkgconfig/vineslam_ros.pc'
+[52.126s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages'
+[52.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('vineslam_ros', 'pythonpath')
+[52.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/pythonpath.ps1'
+[52.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/pythonpath.dsv'
+[52.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/pythonpath.sh'
+[52.128s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros/bin'
+[52.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.ps1'
+[52.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.dsv'
+[52.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.sh'
+[52.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.bash'
+[52.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.zsh'
+[52.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/vineslam_ros/share/colcon-core/packages/vineslam_ros)
+[52.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vineslam_ros)
+[52.227s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros' for CMake module files
+[52.228s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros' for CMake config files
+[52.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('vineslam_ros', 'cmake_prefix_path')
+[52.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/cmake_prefix_path.ps1'
+[52.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/cmake_prefix_path.dsv'
+[52.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/cmake_prefix_path.sh'
+[52.231s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros/lib'
+[52.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('vineslam_ros', 'ld_library_path_lib')
+[52.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/ld_library_path_lib.ps1'
+[52.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/ld_library_path_lib.dsv'
+[52.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/ld_library_path_lib.sh'
+[52.234s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros/bin'
+[52.234s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros/lib/pkgconfig/vineslam_ros.pc'
+[52.234s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages'
+[52.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('vineslam_ros', 'pythonpath')
+[52.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/pythonpath.ps1'
+[52.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/pythonpath.dsv'
+[52.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/hook/pythonpath.sh'
+[52.242s] Level 1:colcon.colcon_core.environment:checking '/home/irobot/ros2_ws/install/vineslam_ros/bin'
+[52.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.ps1'
+[52.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.dsv'
+[52.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.sh'
+[52.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.bash'
+[52.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/irobot/ros2_ws/install/vineslam_ros/share/vineslam_ros/package.zsh'
+[52.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irobot/ros2_ws/install/vineslam_ros/share/colcon-core/packages/vineslam_ros)
+[52.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[52.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[52.244s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[52.244s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[52.259s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[52.259s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[52.259s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[52.281s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[52.281s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/irobot/ros2_ws/install/local_setup.ps1'
+[52.282s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/irobot/ros2_ws/install/_local_setup_util_ps1.py'
+[52.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/irobot/ros2_ws/install/setup.ps1'
+[52.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/irobot/ros2_ws/install/local_setup.sh'
+[52.285s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/irobot/ros2_ws/install/_local_setup_util_sh.py'
+[52.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/irobot/ros2_ws/install/setup.sh'
+[52.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/irobot/ros2_ws/install/local_setup.bash'
+[52.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/irobot/ros2_ws/install/setup.bash'
+[52.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/irobot/ros2_ws/install/local_setup.zsh'
+[52.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/irobot/ros2_ws/install/setup.zsh'

@@ -1,0 +1,47 @@
+[0.057s] Invoking command in '/home/irobot/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/irobot/ros2_ws/src/ublox/ublox_serialization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/ublox_serialization
+[1.074s] -- The C compiler identification is GNU 9.4.0
+[3.043s] -- The CXX compiler identification is GNU 9.4.0
+[3.065s] -- Check for working C compiler: /usr/bin/cc
+[3.220s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.232s] -- Detecting C compiler ABI info
+[3.354s] -- Detecting C compiler ABI info - done
+[3.400s] -- Detecting C compile features
+[3.408s] -- Detecting C compile features - done
+[3.433s] -- Check for working CXX compiler: /usr/bin/c++
+[3.572s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.574s] -- Detecting CXX compiler ABI info
+[4.022s] -- Detecting CXX compiler ABI info - done
+[4.041s] -- Detecting CXX compile features
+[4.042s] -- Detecting CXX compile features - done
+[4.059s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.340s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.340s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.949s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.048s] -- Configuring done
+[9.051s] -- Generating done
+[9.072s] -- Build files have been written to: /home/irobot/ros2_ws/build/ublox_serialization
+[9.079s] Invoked command in '/home/irobot/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/irobot/ros2_ws/src/ublox/ublox_serialization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/ublox_serialization
+[9.084s] Invoking command in '/home/irobot/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox_serialization -- -j8 -l8
+[9.141s] Invoked command in '/home/irobot/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox_serialization -- -j8 -l8
+[9.197s] Invoking command in '/home/irobot/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox_serialization
+[9.210s] -- Install configuration: ""
+[9.211s] -- Execute custom install script
+[9.212s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/include/ublox_serialization/checksum.hpp
+[9.225s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/include/ublox_serialization/serialization.hpp
+[9.242s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ament_index/resource_index/package_run_dependencies/ublox_serialization
+[9.253s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ament_index/resource_index/parent_prefix_path/ublox_serialization
+[9.265s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.sh
+[9.280s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.dsv
+[9.296s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/environment/path.sh
+[9.310s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/environment/path.dsv
+[9.324s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/local_setup.bash
+[9.335s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/local_setup.sh
+[9.351s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/local_setup.zsh
+[9.365s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/local_setup.dsv
+[9.376s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.dsv
+[9.391s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ament_index/resource_index/packages/ublox_serialization
+[9.403s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.415s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig.cmake
+[9.427s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig-version.cmake
+[9.438s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_serialization/share/ublox_serialization/package.xml
+[9.453s] Invoked command in '/home/irobot/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox_serialization

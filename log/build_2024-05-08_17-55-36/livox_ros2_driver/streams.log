@@ -1,0 +1,227 @@
+[0.018s] Invoking command in '/home/irobot/ros2_ws/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/irobot/ros2_ws/src/livox/livox_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/livox_ros2_driver
+[0.105s] -- The C compiler identification is GNU 9.4.0
+[0.183s] -- The CXX compiler identification is GNU 9.4.0
+[0.191s] -- Check for working C compiler: /usr/bin/cc
+[0.289s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.294s] -- Detecting C compiler ABI info
+[0.402s] -- Detecting C compiler ABI info - done
+[0.416s] -- Detecting C compile features
+[0.417s] -- Detecting C compile features - done
+[0.431s] -- Check for working CXX compiler: /usr/bin/c++
+[0.576s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.577s] -- Detecting CXX compiler ABI info
+[0.689s] -- Detecting CXX compiler ABI info - done
+[0.701s] -- Detecting CXX compile features
+[0.703s] -- Detecting CXX compile features - done
+[0.711s] -- livox_ros2_driver version: 0.0.1
+[0.722s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.767s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.768s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.087s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.449s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.579s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.615s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.709s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.951s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.972s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.983s] -- Looking for pthread.h
+[2.097s] -- Looking for pthread.h - found
+[2.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.206s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.206s] -- Looking for pthread_create in pthreads
+[2.303s] -- Looking for pthread_create in pthreads - not found
+[2.304s] -- Looking for pthread_create in pthread
+[2.399s] -- Looking for pthread_create in pthread - found
+[2.401s] -- Found Threads: TRUE  
+[4.202s] -- Checking for module 'eigen3'
+[4.239s] --   Found eigen3, version 3.3.7
+[4.310s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.311s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[4.379s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[4.414s] -- Checking for module 'flann'
+[4.452s] --   Found flann, version 1.9.1
+[4.539s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.694s] -- The imported target "vtkParseOGLExt" references the file
+[4.694s]    "/usr/bin/vtkParseOGLExt-7.1"
+[4.694s] but this file does not exist.  Possible reasons include:
+[4.695s] * The file was deleted, renamed, or moved to another location.
+[4.695s] * An install or uninstall procedure did not complete successfully.
+[4.695s] * The installation package was faulty and contained
+[4.695s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.695s] but not all the files it references.
+[4.695s] 
+[4.696s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[4.696s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[4.696s] but this file does not exist.  Possible reasons include:
+[4.696s] * The file was deleted, renamed, or moved to another location.
+[4.696s] * An install or uninstall procedure did not complete successfully.
+[4.696s] * The installation package was faulty and contained
+[4.696s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.696s] but not all the files it references.
+[4.697s] 
+[4.697s] -- The imported target "vtk" references the file
+[4.697s]    "/usr/bin/vtk"
+[4.697s] but this file does not exist.  Possible reasons include:
+[4.698s] * The file was deleted, renamed, or moved to another location.
+[4.698s] * An install or uninstall procedure did not complete successfully.
+[4.698s] * The installation package was faulty and contained
+[4.698s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.698s] but not all the files it references.
+[4.698s] 
+[4.698s] -- The imported target "pvtk" references the file
+[4.698s]    "/usr/bin/pvtk"
+[4.699s] but this file does not exist.  Possible reasons include:
+[4.699s] * The file was deleted, renamed, or moved to another location.
+[4.699s] * An install or uninstall procedure did not complete successfully.
+[4.699s] * The installation package was faulty and contained
+[4.699s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.701s] but not all the files it references.
+[4.702s] 
+[5.038s] -- Checking for module 'libusb-1.0'
+[5.074s] --   Found libusb-1.0, version 1.0.23
+[5.158s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.286s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[5.286s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.558s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[5.558s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[5.558s] ** WARNING ** io features related to pcap will be disabled
+[5.558s] ** WARNING ** io features related to png will be disabled
+[5.584s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[5.584s] -- Found libusb-1.0: /usr/include  
+[5.598s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.607s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[5.876s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[5.876s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[5.889s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[5.904s] -- looking for PCL_COMMON
+[5.905s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.906s] -- looking for PCL_KDTREE
+[5.907s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.908s] -- looking for PCL_OCTREE
+[5.910s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.910s] -- looking for PCL_SEARCH
+[5.912s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.913s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.915s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.916s] -- looking for PCL_FILTERS
+[5.917s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.918s] -- looking for PCL_2D
+[5.918s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[5.919s] -- looking for PCL_GEOMETRY
+[5.920s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[5.920s] -- looking for PCL_IO
+[5.921s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.922s] -- looking for PCL_FEATURES
+[5.924s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.924s] -- looking for PCL_ML
+[5.926s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.926s] -- looking for PCL_SEGMENTATION
+[5.928s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.929s] -- looking for PCL_VISUALIZATION
+[5.931s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.931s] -- looking for PCL_SURFACE
+[5.933s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.934s] -- looking for PCL_REGISTRATION
+[5.936s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.937s] -- looking for PCL_KEYPOINTS
+[5.939s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.940s] -- looking for PCL_TRACKING
+[5.942s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.942s] -- looking for PCL_RECOGNITION
+[5.944s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.945s] -- looking for PCL_STEREO
+[5.946s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.947s] -- looking for PCL_APPS
+[5.948s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.949s] -- looking for PCL_IN_HAND_SCANNER
+[5.949s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[5.950s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.950s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[5.950s] -- looking for PCL_OUTOFCORE
+[5.952s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.954s] -- looking for PCL_PEOPLE
+[5.956s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.957s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[5.958s] -- Found livox_sdk: /home/irobot/ros2_ws/install/livox_sdk_vendor/include  
+[5.965s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[5.968s] -- Checking for module 'apr-1'
+[6.019s] --   Found apr-1, version 1.6.5
+[6.106s] /usr/include/apr-1.0
+[6.106s] apr-1
+[6.166s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.242s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.249s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.251s] -- Configured cppcheck include dirs: /home/irobot/ros2_ws/src/livox/livox_ros2_driver/common;/home/irobot/ros2_ws/src/livox/livox_ros2_driver/common/rapidjson;/home/irobot/ros2_ws/src/livox/livox_ros2_driver/comon/rapdidxml;/home/irobot/ros2_ws/src/livox/livox_ros2_driver/common/comm;/home/irobot/ros2_ws/src/livox/livox_ros2_driver/timesync;/home/irobot/ros2_ws/src/livox/livox_ros2_driver/timesync/user_uart;/home/irobot/ros2_ws/src/livox/livox_ros2_driver/livox_ros2_driver
+[6.251s] -- Configured cppcheck exclude dirs and/or files: 
+[6.258s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.258s] -- Configured cpplint exclude dirs and/or files: 
+[6.259s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.260s] -- Added test 'lint_cmake' to check CMake code style
+[6.261s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.264s] -- Added test 'uncrustify' to check C / C++ code style
+[6.264s] -- Configured uncrustify additional arguments: 
+[6.264s] -- Added test 'xmllint' to check XML markup files
+[6.269s] -- Configuring done
+[7.260s] -- Generating done
+[7.262s] -- Build files have been written to: /home/irobot/ros2_ws/build/livox_ros2_driver
+[7.281s] Invoked command in '/home/irobot/ros2_ws/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/irobot/ros2_ws/src/livox/livox_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/livox_ros2_driver
+[7.285s] Invoking command in '/home/irobot/ros2_ws/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_ros2_driver -- -j8 -l8
+[7.339s] [35m[1mScanning dependencies of target livox_ros2_driver[0m
+[8.737s] [  6%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lvx_file.cpp.o[0m
+[9.611s] [ 12%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lddc.cpp.o[0m
+[19.206s] [ 18%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/livox_ros2_driver.cpp.o[0m
+[26.047s] [ 25%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/timesync/timesync.cpp.o[0m
+[26.519s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/timesync/user_uart/user_uart.cpp.o[0m
+[26.595s] [ 37%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/comm_protocol.cpp.o[0m
+[26.856s] [ 43%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/sdk_protocol.cpp.o[0m
+[26.921s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/common/comm/gps_protocol.cpp.o[0m
+[26.986s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_hub.cpp.o[0m
+[27.778s] [ 62%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lidar.cpp.o[0m
+[28.598s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds_lvx.cpp.o[0m
+[29.292s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/lds.cpp.o[0m
+[29.798s] [ 81%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver.dir/livox_ros2_driver/ldq.cpp.o[0m
+[29.899s] [ 87%] [32m[1mLinking CXX shared library liblivox_ros2_driver.so[0m
+[42.019s] [ 87%] Built target livox_ros2_driver
+[42.035s] [35m[1mScanning dependencies of target livox_ros2_driver_node[0m
+[42.096s] [ 93%] [32mBuilding CXX object CMakeFiles/livox_ros2_driver_node.dir/rclcpp_components/node_main_livox_ros2_driver_node.cpp.o[0m
+[44.115s] [100%] [32m[1mLinking CXX executable livox_ros2_driver_node[0m
+[44.316s] [100%] Built target livox_ros2_driver_node
+[44.334s] Invoked command in '/home/irobot/ros2_ws/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_ros2_driver -- -j8 -l8
+[44.402s] Invoking command in '/home/irobot/ros2_ws/build/livox_ros2_driver': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_ros2_driver
+[44.415s] -- Install configuration: ""
+[44.416s] -- Execute custom install script
+[44.417s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/lib/livox_ros2_driver/livox_ros2_driver_node
+[44.428s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.sh
+[44.442s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/library_path.dsv
+[44.451s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/lib/liblivox_ros2_driver.so
+[44.462s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub.rviz
+[44.477s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_hub_config.json
+[44.488s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar.rviz
+[44.498s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/config/livox_lidar_config.json
+[44.509s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_launch.py
+[44.526s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_msg_launch .py
+[44.540s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_hub_rviz_launch.py
+[44.549s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_launch.py
+[44.558s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_msg_launch.py
+[44.573s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_lidar_rviz_launch.py
+[44.587s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/launch/livox_template_launch.py
+[44.605s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/ament_index/resource_index/package_run_dependencies/livox_ros2_driver
+[44.616s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/ament_index/resource_index/parent_prefix_path/livox_ros2_driver
+[44.628s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.sh
+[44.634s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/ament_prefix_path.dsv
+[44.647s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.sh
+[44.661s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/environment/path.dsv
+[44.672s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.bash
+[44.688s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.sh
+[44.704s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.zsh
+[44.722s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/local_setup.dsv
+[44.732s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.dsv
+[44.746s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/ament_index/resource_index/packages/livox_ros2_driver
+[44.755s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/ament_index/resource_index/rclcpp_components/livox_ros2_driver
+[44.771s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.784s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[44.793s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig.cmake
+[44.808s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/cmake/livox_ros2_driverConfig-version.cmake
+[44.817s] -- Symlinking: /home/irobot/ros2_ws/install/livox_ros2_driver/share/livox_ros2_driver/package.xml
+[44.840s] Invoked command in '/home/irobot/ros2_ws/build/livox_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/ublox_serialization:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/livox_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_ros2_driver

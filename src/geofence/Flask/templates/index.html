@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wein-Geozaun</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Leaflet.draw CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+    <!-- Fügen Sie hier Ihre CSS-Dateien hinzu -->
+    <style>
+        #map {
+            height: 650px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hallo Welt</h1>
+    <h2>Wein-Geozaun</h2>
+    <div id="map"></div>
+    <form id="save-form">
+        <input type="text" id="filename" placeholder="Dateiname">
+        <button type="button" id="save-btn">Als GeoJSON speichern</button>
+    </form>
+    <select id="geojson-dropdown">
+        <option value="" disabled selected>GeoJSON-Datei auswählen</option>
+    </select>
+    <button id="confirm-btn">Bestätigen</button>
+    
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Leaflet.draw JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    <script>
+        var map = L.map('map').setView([49.74908110125702, 9.991184439987288], 18);
+        L.tileLayer('https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=da5cdf92f11440f09fbbed466d51c86b', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+        
+        // Initialisierung des Zeichenwerkzeugs für Polygone
+        var drawnItems = new L.FeatureGroup();
+        map.addLayer(drawnItems);
+        var drawControl = new L.Control.Draw({
+            draw: {
+                polygon: true,
+                polyline: false,
+                rectangle: false,
+                circle: false,
+                marker: false,
+                circlemarker:false
+            },
+            edit: {
+                featureGroup: drawnItems,
+                remove: true
+            }
+        });
+        map.addControl(drawControl);
+
+        map.on(L.Draw.Event.CREATED, function (event) {
+            var layer = event.layer;
+            drawnItems.addLayer(layer);
+            console.log("Polygon gezeichnet");
+        });
+
+        // Laden der GeoJSON-Dateien und Hinzufügen zum Dropdown-Menü
+        var dropdown = document.getElementById('geojson-dropdown');
+
+        function loadGeoJSONFiles() {
+            var path = '/home/irobot/ros2_ws/src/geofence/Flask/geojson/';
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', path);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    var files = JSON.parse(xhr.responseText);
+                    files.forEach(function (file) {
+                        var option = document.createElement('option');
+                        option.text = file; // Dateiname als Optionstext
+                        option.value = path + file; // Dateipfad als Optionswert
+                        dropdown.add(option);
+                    });
+                } else {
+                    console.error('Fehler beim Laden der GeoJSON-Dateien.');
+                }
+            };
+            xhr.send();
+        }
+
+        loadGeoJSONFiles();
+
+        // Funktion zum Speichern des gezeichneten Polygons als GeoJSON
+        document.getElementById('save-btn').addEventListener('click', function() {
+            var filename = document.getElementById('filename').value;
+            if (!filename) {
+                alert("Bitte geben Sie einen Dateinamen ein.");
+                return;
+            }
+            var geojson = drawnItems.toGeoJSON();
+            var blob = new Blob([JSON.stringify(geojson)], {type: "application/json"});
+            
+            var a = document.createElement('a');
+            a.style.display = 'none';
+            document.body.appendChild(a);
+            var url = window.URL.createObjectURL(blob);
+            a.href = url;
+            a.download = filename + '.geojson';
+            a.click();
+            window.URL.revokeObjectURL(url);
+
+            alert("GeoJSON erfolgreich gespeichert.");
+        });
+    </script>
+    <!-- Fügen Sie hier Ihre JavaScript-Dateien hinzu -->
+</body>
+</html>

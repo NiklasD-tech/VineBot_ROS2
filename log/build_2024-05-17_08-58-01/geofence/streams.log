@@ -1,0 +1,19 @@
+[2.854s] Invoking command in '/home/irobot/ros2_ws/build/geofence': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/irobot/ros2_ws/build/geofence/build --no-deps symlink_data
+[3.162s] running develop
+[3.381s] /opt/ros/noetic/lib/python3/dist-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.381s]   warnings.warn(
+[3.592s] running egg_info
+[3.603s] writing geofence.egg-info/PKG-INFO
+[3.651s] writing dependency_links to geofence.egg-info/dependency_links.txt
+[3.667s] writing entry points to geofence.egg-info/entry_points.txt
+[3.684s] writing requirements to geofence.egg-info/requires.txt
+[3.726s] writing top-level names to geofence.egg-info/top_level.txt
+[4.191s] reading manifest file 'geofence.egg-info/SOURCES.txt'
+[4.191s] writing manifest file 'geofence.egg-info/SOURCES.txt'
+[4.315s] running build_ext
+[4.315s] Creating /home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages/geofence.egg-link (link to .)
+[4.422s] Installing pointInPolygon script to /home/irobot/ros2_ws/install/geofence/lib/geofence
+[4.506s] 
+[4.507s] Installed /home/irobot/ros2_ws/build/geofence
+[4.507s] running symlink_data
+[4.591s] Invoked command in '/home/irobot/ros2_ws/build/geofence' returned '0': PYTHONPATH=/home/irobot/ros2_ws/build/geofence/prefix_override:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/irobot/ros2_ws/build/geofence/build --no-deps symlink_data

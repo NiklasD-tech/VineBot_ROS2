@@ -1,0 +1,176 @@
+[0.039s] Invoking command in '/home/irobot/ros2_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/irobot/ros2_ws/src/livox/livox_sdk_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/livox_sdk_vendor
+[0.326s] -- The C compiler identification is GNU 9.4.0
+[0.394s] -- The CXX compiler identification is GNU 9.4.0
+[0.402s] -- Check for working C compiler: /usr/bin/cc
+[0.491s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.493s] -- Detecting C compiler ABI info
+[0.588s] -- Detecting C compiler ABI info - done
+[0.599s] -- Detecting C compile features
+[0.600s] -- Detecting C compile features - done
+[0.602s] -- Check for working CXX compiler: /usr/bin/c++
+[0.703s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.704s] -- Detecting CXX compiler ABI info
+[0.798s] -- Detecting CXX compiler ABI info - done
+[0.808s] -- Detecting CXX compile features
+[0.809s] -- Detecting CXX compile features - done
+[0.897s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.993s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.993s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.268s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.650s] -- Configuring done
+[1.655s] -- Generating done
+[1.657s] -- Build files have been written to: /home/irobot/ros2_ws/build/livox_sdk_vendor
+[1.668s] Invoked command in '/home/irobot/ros2_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/irobot/ros2_ws/src/livox/livox_sdk_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/irobot/ros2_ws/install/livox_sdk_vendor
+[1.671s] Invoking command in '/home/irobot/ros2_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_sdk_vendor -- -j8 -l8
+[1.711s] [35m[1mScanning dependencies of target livox-sdk-v2.3.0[0m
+[1.727s] [ 12%] [34m[1mCreating directories for 'livox-sdk-v2.3.0'[0m
+[1.818s] [ 25%] [34m[1mPerforming download step (git clone) for 'livox-sdk-v2.3.0'[0m
+[1.849s] Cloning into 'livox-sdk-v2.3.0'...
+[3.457s] Note: switching to 'v2.3.0'.
+[3.457s] 
+[3.457s] You are in 'detached HEAD' state. You can look around, make experimental
+[3.458s] changes and commit them, and you can discard any commits you make in this
+[3.458s] state without impacting any branches by switching back to a branch.
+[3.458s] 
+[3.458s] If you want to create a new branch to retain commits you create, you may
+[3.458s] do so (now or later) by using -c with the switch command. Example:
+[3.458s] 
+[3.458s]   git switch -c <new-branch-name>
+[3.458s] 
+[3.458s] Or undo this operation with:
+[3.458s] 
+[3.458s]   git switch -
+[3.458s] 
+[3.458s] Turn off this advice by setting config variable advice.detachedHead to false
+[3.458s] 
+[3.461s] HEAD is now at 7cf759a remove dependency on APR library
+[3.615s] [ 37%] [34m[1mPerforming update step for 'livox-sdk-v2.3.0'[0m
+[3.624s] [ 50%] [34m[1mNo patch step for 'livox-sdk-v2.3.0'[0m
+[3.661s] [ 62%] [34m[1mPerforming configure step for 'livox-sdk-v2.3.0'[0m
+[3.747s] -- The C compiler identification is GNU 9.4.0
+[3.927s] -- The CXX compiler identification is GNU 9.4.0
+[3.941s] -- Check for working C compiler: /usr/bin/cc
+[4.073s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.074s] -- Detecting C compiler ABI info
+[4.177s] -- Detecting C compiler ABI info - done
+[4.191s] -- Detecting C compile features
+[4.192s] -- Detecting C compile features - done
+[4.195s] -- Check for working CXX compiler: /usr/bin/c++
+[4.308s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.310s] -- Detecting CXX compiler ABI info
+[4.504s] -- Detecting CXX compiler ABI info - done
+[4.520s] -- Detecting CXX compile features
+[4.521s] -- Detecting CXX compile features - done
+[4.523s] -- main project dir: /home/irobot/ros2_ws/build/livox_sdk_vendor/livox-sdk-v2.3.0-prefix/src/livox-sdk-v2.3.0
+[4.530s] -- Configuring done
+[4.554s] -- Generating done
+[4.557s] -- Build files have been written to: /home/irobot/ros2_ws/build/livox_sdk_vendor/livox-sdk-v2.3.0-prefix/src/livox-sdk-v2.3.0-build
+[4.584s] [ 75%] [34m[1mPerforming build step for 'livox-sdk-v2.3.0'[0m
+[4.740s] [35m[1mScanning dependencies of target livox_sdk_static[0m
+[4.782s] [  2%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/io_loop.cpp.o[0m
+[4.796s] [  4%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/thread_base.cpp.o[0m
+[4.802s] [  6%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/third_party/FastCRC/FastCRCsw.cpp.o[0m
+[4.865s] [  8%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/io_thread.cpp.o[0m
+[4.879s] [ 10%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/network/unix/network_util.cpp.o[0m
+[4.904s] [ 12%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/logging.cpp.o[0m
+[4.940s] [ 14%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/livox_sdk.cpp.o[0m
+[4.946s] [ 16%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/device_discovery.cpp.o[0m
+[5.039s] [ 18%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/device_manager.cpp.o[0m
+[5.706s] [ 20%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/comm/sdk_protocol.cpp.o[0m
+[5.726s] [ 22%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/comm/comm_port.cpp.o[0m
+[5.930s] [ 25%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/data_handler.cpp.o[0m
+[6.814s] [ 27%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/hub_data_handler.cpp.o[0m
+[7.685s] [ 29%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/data_handler/lidar_data_handler.cpp.o[0m
+[11.440s] [ 31%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_handler.cpp.o[0m
+[13.750s] [ 33%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/hub_command_handler.cpp.o[0m
+[13.758s] [ 35%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_channel.cpp.o[0m
+[15.163s] [ 37%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/lidar_command_handler.cpp.o[0m
+[16.649s] [ 39%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/command_handler/command_impl.cpp.o[0m
+[23.338s] [ 41%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/wake_up/unix/wake_up_pipe.cpp.o[0m
+[23.519s] [ 43%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_kqueue.cpp.o[0m
+[24.385s] [ 45%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_select.cpp.o[0m
+[25.060s] [ 47%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_poll.cpp.o[0m
+[25.714s] [ 50%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_epoll.cpp.o[0m
+[26.742s] [ 52%] [32mBuilding CXX object sdk_core/CMakeFiles/livox_sdk_static.dir/src/base/multiple_io/multiple_io_base.cpp.o[0m
+[27.482s] [ 54%] [32m[1mLinking CXX static library liblivox_sdk_static.a[0m
+[28.603s] [ 54%] Built target livox_sdk_static
+[28.656s] [35m[1mScanning dependencies of target hub_sample[0m
+[28.670s] [ 56%] [32mBuilding C object sample/hub/CMakeFiles/hub_sample.dir/main.c.o[0m
+[28.853s] [ 58%] [32m[1mLinking CXX executable hub_sample[0m
+[29.554s] [ 58%] Built target hub_sample
+[29.595s] [35m[1mScanning dependencies of target lidar_utc_sync[0m
+[29.666s] [ 60%] [32mBuilding CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/main.cpp.o[0m
+[30.775s] [ 62%] [32mBuilding CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/lds_lidar.cpp.o[0m
+[31.306s] [ 64%] [32mBuilding CXX object sample_cc/lidar_utc_sync/CMakeFiles/lidar_utc_sync.dir/synchro.cpp.o[0m
+[31.904s] [ 66%] [32m[1mLinking CXX executable lidar_utc_sync[0m
+[32.415s] [ 66%] Built target lidar_utc_sync
+[32.431s] [35m[1mScanning dependencies of target trouble_shooting[0m
+[32.444s] [ 68%] [32mBuilding CXX object sample_cc/trouble_shooting/CMakeFiles/trouble_shooting.dir/main.cpp.o[0m
+[32.761s] [ 70%] [32m[1mLinking CXX executable trouble_shooting[0m
+[33.260s] [ 70%] Built target trouble_shooting
+[33.277s] [35m[1mScanning dependencies of target lidar_sample_cc[0m
+[33.296s] [ 72%] [32mBuilding CXX object sample_cc/lidar/CMakeFiles/lidar_sample_cc.dir/main.cpp.o[0m
+[34.174s] [ 75%] [32mBuilding CXX object sample_cc/lidar/CMakeFiles/lidar_sample_cc.dir/lds_lidar.cpp.o[0m
+[34.520s] [ 77%] [32m[1mLinking CXX executable lidar_sample_cc[0m
+[35.019s] [ 77%] Built target lidar_sample_cc
+[35.036s] [35m[1mScanning dependencies of target hub_sample_cc[0m
+[35.053s] [ 79%] [32mBuilding CXX object sample_cc/hub/CMakeFiles/hub_sample_cc.dir/lds_hub.cpp.o[0m
+[35.395s] [ 81%] [32mBuilding CXX object sample_cc/hub/CMakeFiles/hub_sample_cc.dir/main.cpp.o[0m
+[36.272s] [ 83%] [32m[1mLinking CXX executable hub_sample_cc[0m
+[36.852s] [ 83%] Built target hub_sample_cc
+[36.870s] [35m[1mScanning dependencies of target lidar_lvx_sample[0m
+[36.887s] [ 85%] [32mBuilding CXX object sample/lidar_lvx_file/CMakeFiles/lidar_lvx_sample.dir/main.cpp.o[0m
+[38.034s] [ 87%] [32mBuilding CXX object sample/lidar_lvx_file/CMakeFiles/lidar_lvx_sample.dir/lvx_file.cpp.o[0m
+[38.711s] [ 89%] [32m[1mLinking CXX executable lidar_lvx_sample[0m
+[39.242s] [ 89%] Built target lidar_lvx_sample
+[39.254s] [35m[1mScanning dependencies of target hub_lvx_sample[0m
+[39.269s] [ 91%] [32mBuilding CXX object sample/hub_lvx_file/CMakeFiles/hub_lvx_sample.dir/main.cpp.o[0m
+[40.421s] [ 93%] [32mBuilding CXX object sample/hub_lvx_file/CMakeFiles/hub_lvx_sample.dir/lvx_file.cpp.o[0m
+[40.926s] [ 95%] [32m[1mLinking CXX executable hub_lvx_sample[0m
+[41.486s] [ 95%] Built target hub_lvx_sample
+[41.505s] [35m[1mScanning dependencies of target lidar_sample[0m
+[41.524s] [ 97%] [32mBuilding C object sample/lidar/CMakeFiles/lidar_sample.dir/main.c.o[0m
+[41.599s] [100%] [32m[1mLinking CXX executable lidar_sample[0m
+[42.099s] [100%] Built target lidar_sample
+[42.136s] [ 87%] [34m[1mPerforming install step for 'livox-sdk-v2.3.0'[0m
+[42.194s] [ 54%] Built target livox_sdk_static
+[42.226s] [ 58%] Built target hub_sample
+[42.254s] [ 66%] Built target lidar_utc_sync
+[42.282s] [ 70%] Built target trouble_shooting
+[42.314s] [ 77%] Built target lidar_sample_cc
+[42.341s] [ 83%] Built target hub_sample_cc
+[42.373s] [ 89%] Built target lidar_lvx_sample
+[42.401s] [ 95%] Built target hub_lvx_sample
+[42.424s] [100%] Built target lidar_sample
+[42.455s] [36mInstall the project...[0m
+[42.463s] -- Install configuration: ""
+[42.463s] -- Installing: /home/irobot/ros2_ws/build/livox_sdk_vendor/livox-sdk_install/lib/liblivox_sdk_static.a
+[42.474s] -- Installing: /home/irobot/ros2_ws/build/livox_sdk_vendor/livox-sdk_install/include/livox_def.h
+[42.474s] -- Installing: /home/irobot/ros2_ws/build/livox_sdk_vendor/livox-sdk_install/include/livox_sdk.h
+[42.503s] [100%] [34m[1mCompleted 'livox-sdk-v2.3.0'[0m
+[42.543s] [100%] Built target livox-sdk-v2.3.0
+[42.560s] Invoked command in '/home/irobot/ros2_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/livox_sdk_vendor -- -j8 -l8
+[42.592s] Invoking command in '/home/irobot/ros2_ws/build/livox_sdk_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_sdk_vendor
+[42.608s] -- Install configuration: ""
+[42.608s] -- Execute custom install script
+[42.608s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/include/livox_def.h
+[42.621s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/include/livox_sdk.h
+[42.630s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/lib/liblivox_sdk_static.a
+[42.641s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/Modules/Findlivox_sdk.cmake
+[42.657s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/ament_index/resource_index/package_run_dependencies/livox_sdk_vendor
+[42.677s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/ament_index/resource_index/parent_prefix_path/livox_sdk_vendor
+[42.693s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.sh
+[42.709s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/ament_prefix_path.dsv
+[42.723s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.sh
+[42.732s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/environment/path.dsv
+[42.741s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.bash
+[42.755s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.sh
+[42.772s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.zsh
+[42.787s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/local_setup.dsv
+[42.796s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.dsv
+[42.809s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/ament_index/resource_index/packages/livox_sdk_vendor
+[42.824s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendor-extras.cmake
+[42.838s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig.cmake
+[42.850s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/cmake/livox_sdk_vendorConfig-version.cmake
+[42.859s] -- Symlinking: /home/irobot/ros2_ws/install/livox_sdk_vendor/share/livox_sdk_vendor/package.xml
+[42.879s] Invoked command in '/home/irobot/ros2_ws/build/livox_sdk_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/livox_sdk_vendor

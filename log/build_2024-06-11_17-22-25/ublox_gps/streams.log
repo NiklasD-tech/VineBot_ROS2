@@ -1,0 +1,65 @@
+[0.019s] Invoking command in '/home/irobot/ros2_ws/build/ublox_gps': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox_gps -- -j8 -l8
+[0.134s] [ 13%] Built target ublox_logger_node
+[0.164s] [ 90%] Built target ublox_gps
+[0.244s] [100%] Built target ublox_gps_node
+[0.260s] Invoked command in '/home/irobot/ros2_ws/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/irobot/ros2_ws/build/ublox_gps -- -j8 -l8
+[0.337s] Invoking command in '/home/irobot/ros2_ws/build/ublox_gps': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox_gps
+[0.352s] -- Install configuration: "Release"
+[0.353s] -- Execute custom install script
+[0.354s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/lib/libublox_gps.so
+[0.355s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[0.355s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_logger
+[0.355s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/adr_udr_product.hpp
+[0.355s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/async_worker.hpp
+[0.355s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/callback.hpp
+[0.356s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/component_interface.hpp
+[0.356s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/fix_diagnostic.hpp
+[0.356s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/fts_product.hpp
+[0.356s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/gnss.hpp
+[0.356s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/gps.hpp
+[0.356s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/hp_pos_rec_product.hpp
+[0.357s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/hpg_ref_product.hpp
+[0.357s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/hpg_rov_product.hpp
+[0.357s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/mkgmtime.h
+[0.357s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/node.hpp
+[0.357s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/raw_data_pa.hpp
+[0.357s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/raw_data_product.hpp
+[0.357s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/rtcm.hpp
+[0.357s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/tim_product.hpp
+[0.358s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware.hpp
+[0.358s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware6.hpp
+[0.358s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware7.hpp
+[0.358s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware7plus.hpp
+[0.358s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware8.hpp
+[0.358s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware9.hpp
+[0.358s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_topic_diagnostic.hpp
+[0.359s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/utils.hpp
+[0.359s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/include/ublox_gps/worker.hpp
+[0.359s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/launch/__pycache__/ublox_gps_node-launch.cpython-38.pyc
+[0.359s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[0.359s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch_vineslam.py
+[0.359s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-launch.py
+[0.359s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/config/c94_m8p_base.yaml
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/config/c94_m8p_rover.yaml
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/config/c94_m8t_base.yaml
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/config/c94_m8t_rover.yaml
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/config/neo_m8u_rover.yaml
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/config/nmea.yaml
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/environment/path.sh
+[0.360s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[0.361s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.bash
+[0.361s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.sh
+[0.361s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[0.361s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[0.361s] -- Symlinking: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.dsv
+[0.377s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[0.377s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[0.378s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[0.378s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[0.378s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/ublox_gps/share/ublox_gps/package.xml
+[0.382s] Invoked command in '/home/irobot/ros2_ws/build/ublox_gps' returned '0': CMAKE_PREFIX_PATH=/home/irobot/ros2_ws/install/ublox_msgs:/home/irobot/ros2_ws/install/ublox_serialization:/home/irobot/ros2_ws/install/vineslam_ros:/home/irobot/ros2_ws/install/vineslam:/home/irobot/ros2_ws/install/ublox:/home/irobot/ros2_ws/install/ublox_gps:/home/irobot/ros2_ws/install/livox_ros2_driver:/home/irobot/ros2_ws/install/livox_sdk_vendor:/home/irobot/ros2_ws/install/livox_interfaces:/home/irobot/ros2_ws/install/geofence:/opt/ros/foxy LD_LIBRARY_PATH=/home/irobot/ros2_ws/install/ublox_msgs/lib:/home/irobot/ros2_ws/install/vineslam_ros/lib:/home/irobot/ros2_ws/install/vineslam/lib:/home/irobot/ros2_ws/install/ublox_gps/lib:/home/irobot/ros2_ws/install/livox_ros2_driver/lib:/home/irobot/ros2_ws/install/livox_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/irobot/ros2_ws/install/ublox_msgs/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/vineslam_ros/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/livox_interfaces/lib/python3.8/site-packages:/home/irobot/ros2_ws/install/geofence/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/irobot/ros2_ws/build/ublox_gps

@@ -1,0 +1,69 @@
+[0.579s] Invoking command in '/home/irobot/ros2_ws/build/vineslam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/vineslam -- -j8 -l8
+[3.164s] [100%] Built target vineslam
+[3.200s] Invoked command in '/home/irobot/ros2_ws/build/vineslam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/irobot/ros2_ws/build/vineslam -- -j8 -l8
+[3.288s] Invoking command in '/home/irobot/ros2_ws/build/vineslam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/vineslam
+[3.312s] -- Install configuration: ""
+[3.335s] -- Execute custom install script
+[3.336s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/library_path.sh
+[3.336s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/library_path.dsv
+[3.338s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/extern/concurrentqueue.h
+[3.340s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/extern/thread_pool.cpp
+[3.340s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/extern/thread_pool.h
+[3.340s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/feature/feature.hpp
+[3.340s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/feature/semantic.hpp
+[3.340s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/feature/three_dimensional.hpp
+[3.340s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/feature/visual.hpp
+[3.341s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/filters/convex_hull.hpp
+[3.341s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/filters/ransac.hpp
+[3.341s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/filters/ransac_cu.hpp
+[3.341s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/interface/localization_mapping_interface.hpp
+[3.342s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/localization/localizer.hpp
+[3.342s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/localization/pf.hpp
+[3.342s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/elevation_map_parser.hpp
+[3.342s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/elevation_map_writer.hpp
+[3.342s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/map_parser.hpp
+[3.343s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/map_writer.hpp
+[3.343s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/topological_map_parser.hpp
+[3.343s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/map_io/topological_map_writer.hpp
+[3.343s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/elevation_map.hpp
+[3.343s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/landmark_ekf.hpp
+[3.344s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/landmark_mapping.hpp
+[3.344s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/lidar_mapping.hpp
+[3.344s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/lidar_mapping_livox.hpp
+[3.344s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/lidar_mapping_omnidirectional.hpp
+[3.345s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/occupancy_map.hpp
+[3.345s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/static/occupancy_map_static.hpp
+[3.345s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/mapping/topological_map.hpp
+[3.345s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/matcher/icp.hpp
+[3.346s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Const.hpp
+[3.346s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Geodetic.hpp
+[3.346s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Point.hpp
+[3.346s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Pose.hpp
+[3.347s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Stat.hpp
+[3.347s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Tf.hpp
+[3.347s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/math/Vec.hpp
+[3.347s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/params.hpp
+[3.348s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/utils/Timer.hpp
+[3.348s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/utils/save_data.hpp
+[3.348s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/include//vineslam/utils/scripts/plot_clusters.py
+[3.349s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/ament_index/resource_index/package_run_dependencies/vineslam
+[3.349s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/ament_index/resource_index/parent_prefix_path/vineslam
+[3.349s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/ament_prefix_path.sh
+[3.350s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/ament_prefix_path.dsv
+[3.350s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/path.sh
+[3.350s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/environment/path.dsv
+[3.351s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/local_setup.bash
+[3.351s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/local_setup.sh
+[3.352s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/local_setup.zsh
+[3.352s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/local_setup.dsv
+[3.352s] -- Symlinking: /home/irobot/ros2_ws/install/vineslam/share/vineslam/package.dsv
+[3.373s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/ament_index/resource_index/packages/vineslam
+[3.374s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/ament_cmake_export_targets-extras.cmake
+[3.375s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.375s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/vineslamConfig.cmake
+[3.376s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/vineslamConfig-version.cmake
+[3.376s] -- Up-to-date symlink: /home/irobot/ros2_ws/install/vineslam/share/vineslam/package.xml
+[3.376s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam/lib/libvineslam.a
+[3.387s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/export_vineslamExport.cmake
+[3.387s] -- Up-to-date: /home/irobot/ros2_ws/install/vineslam/share/vineslam/cmake/export_vineslamExport-noconfig.cmake
+[3.397s] Invoked command in '/home/irobot/ros2_ws/build/vineslam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/irobot/ros2_ws/build/vineslam
